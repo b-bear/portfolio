@@ -1,3 +1,12 @@
+/*! https://mths.be/punycode v1.4.1 by @mathias */
+
+/*!
+ * The buffer module from node.js, for the browser.
+ *
+ * @author   Feross Aboukhadijeh <feross@feross.org> <http://feross.org>
+ * @license  MIT
+ */
+
 /*!
  * vue-no-ssr v1.0.0
  * (c) 2018-present egoist <0x142857@gmail.com>
@@ -33,12 +42,3 @@ object-assign
 (c) Sindre Sorhus
 @license MIT
 */
-
-/*! https://mths.be/punycode v1.4.1 by @mathias */
-
-/*!
- * The buffer module from node.js, for the browser.
- *
- * @author   Feross Aboukhadijeh <feross@feross.org> <http://feross.org>
- * @license  MIT
- */

@@ -1,7 +1,7 @@
 module.exports = {
-  name: 'Item 1',
-  title: 'hello',
+  name: 'About',
+  title: 'About',
   thumbnail: '/images/item-1.png',
-  /* description
-  keywords */
+  description: 'about description',
+  keywords: 'about,keywords',
 };

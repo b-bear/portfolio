@@ -22,9 +22,11 @@ export default {
   },
   head() {
     return {
-      title: this.data.title,
-      description: this.data.description,
-      keywords: this.data.keywords,
+      title: `${this.data.title} - Rebecca Deakin`,
+      meta: [
+        { name: 'description', content: this.data.description },
+        { name: 'keywords', content: this.data.keywords },
+      ],
     };
   },
   computed: {
