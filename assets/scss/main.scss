@@ -1,0 +1,52 @@
+@import './reset';
+@import './variables';
+@import './mixins';/* 
+$fa-font-path: '../../node_modules/@fontawesome/fontawesome-free/webfonts';
+@import '../../node_modules/@fontawesome/fontawesome-free/scss/brands'; */
+@import './grid';
+
+body {
+  background-color: #ffffff;
+  color: $--color-typography-primary;
+  font-size: 16px;
+  line-height: 1.2;
+  font-family: 'Muli', sans-serif;
+}
+
+
+.wrapper {
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+@import './header';
+@import './nav';
+@import './wysiwyg';
+@import './portfolio-grid';
+@import './portfolio-item';
+
+#app {
+  display: flex;
+  padding: 20px;
+}
+.content {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: calc(100% - 250px);
+  padding-left: 20px;
+}
+
+@media screen and (max-width:$--menu-breakpoint) {
+  #app {
+    display: block;
+    padding: 0;
+  }
+  .content{
+    width: 100%;
+    display: block;
+    padding-left: 0;
+    padding: 0 10px;
+  }
+}

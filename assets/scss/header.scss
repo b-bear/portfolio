@@ -1,0 +1,30 @@
+.header {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 250px;
+}
+.header__site-name {
+  font-size: 32px;
+  color: $--color-primary;
+}
+
+.header__main {
+  display: inline-block;
+}
+
+@media screen and (max-width:$--menu-breakpoint) {
+  .header{
+    width: 100%;
+    padding-left: 0;
+    padding: 0 10px;
+    margin-bottom: 20px;
+  }
+  .header__main {
+    width: 164px;
+    flex: 0 0 164px;
+  }
+ .header__site-name {
+    font-size: 20px;
+  }
+}
