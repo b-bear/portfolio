@@ -1,1 +1,0 @@
-import{_ as e,a as t,o as a}from"./chunks/framework.CzQxLDOG.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{"portfolioHub":true},"headers":[],"relativePath":"index.md","filePath":"index.md","lastUpdated":1696781523000}'),o={name:"index.md"};function r(n,s,d,i,c,p){return a(),t("div")}const l=e(o,[["render",r]]);export{f as __pageData,l as default};
