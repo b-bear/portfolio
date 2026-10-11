@@ -1,0 +1,1 @@
+const s="/assets/ramen.png",t="/assets/SD_Embroidery.png",o="/assets/EmbroideryGenerator_01.png",e="/assets/EmbroideryGenerator.png",r="/assets/SD_grass.png",n="/assets/SD_Cobblestone.png",a="/assets/KnittingTexture.png";export{t as _,o as a,e as b,r as c,n as d,a as e,s as f};
